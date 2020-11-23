@@ -1,0 +1,3 @@
+[1122/200122.287:ERROR:file_io_win.cc(162)] CreateFile C:\Users\ALEJAN~1\AppData\Local\Temp\scoped_dir4508_1961097934\Crashpad\settings.dat: El sistema no puede encontrar la ruta especificada. (0x3)
+[1122/200122.288:ERROR:file_io_win.cc(171)] CreateFile C:\Users\ALEJAN~1\AppData\Local\Temp\scoped_dir4508_1961097934\Crashpad\reports\cbb46b52-6d59-46cd-a8f0-80bc6d24a693.dmp: El sistema no puede encontrar la ruta especificada. (0x3)
+[1122/200122.288:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
