@@ -11,7 +11,7 @@ public class CreatingActionsofStep extends PageObject {
 
     public  void  entry_jobs()
     {
-        WebElementFacade job = $(By.id("menu-item-550"));
+        WebElementFacade job = $(By.id("Btn-contactenos"));
         getDriver().manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
         job.shouldBeVisible();
         job.click();
