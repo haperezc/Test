@@ -2,19 +2,18 @@ package starter.matchers;
 
 import net.thucydides.core.annotations.Step;
 
-public class HomePage {
+public class  HomePage {
 
-    CreatingActionsofStep home;
-    @Step("Verificar Titulo")
-    public  void  verifyTitle()
-    {
-        home.verifyTitle();
+    CreatingActionsofStep homepage;
 
+    @Step
+    public void openAplication(){
+        homepage.open();
     }
-    @Step("Verificar que entra a la pagina")
-    public void  entry_jobs()
+    @Step
+    public void entry_job()
     {
-        home.entry_jobs();
+        homepage.entry_jobs();
 
     }
 }

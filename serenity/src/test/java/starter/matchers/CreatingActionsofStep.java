@@ -8,14 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class CreatingActionsofStep extends PageObject {
 
-    public  void  verifyTitle()
-    {
-       String title= getDriver().getTitle();
-        System.out.println("el titulo es : "+ title);
-       Assert.assertTrue(title.contains("Choucair Testing"));
 
-
-    }
     public  void  entry_jobs()
     {
         WebElementFacade job = $(By.id("menu-item-550"));
