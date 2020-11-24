@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        tags = {"@suite2"},
+        //tags = {"@suite1"},
         plugin = {"pretty"},
         features = "src/test/resources/features"
 )

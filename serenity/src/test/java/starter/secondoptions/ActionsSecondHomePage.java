@@ -21,7 +21,7 @@ public class ActionsSecondHomePage extends PageObject {
         String job = "Analista de Pruebas Bogota";
 
 
-        WebElementFacade name_job = $(By.id("search_keywords")).type("Empleo");
+        WebElementFacade name_job = $(By.id("search_keywords")).type(job);
         String valjob = name_job.getValue();
         System.out.println("el  es : "+ valjob);
 
