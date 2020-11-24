@@ -20,8 +20,9 @@ public class Gotochoucarjob {
 
     }
 
-    @When("user is contacs")
-    public void userIsContacs() {
+
+    @When("user entry to job first")
+    public void userEntryToJobFirst() {
         home.entry_job();
     }
 
